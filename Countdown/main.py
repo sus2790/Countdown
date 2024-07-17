@@ -82,6 +82,10 @@ def wait_until(target_hour: int, target_minute: int, countdown_seconds: int) -> 
 
         countdown_start_time = target_time - timedelta(seconds=countdown_seconds)
         time_to_wait = (countdown_start_time - now).total_seconds()
+        if time_to_wait < 0:
+            print("Target time has already passed.")
+            return
+
         print(
             f"Waiting for {time_to_wait} seconds until {countdown_start_time.time()}.",
         )
@@ -95,4 +99,4 @@ def wait_until(target_hour: int, target_minute: int, countdown_seconds: int) -> 
 
 
 if __name__ == "__main__":
-    wait_until(0, 0, 0)
+    wait_until(0, 5, 10)

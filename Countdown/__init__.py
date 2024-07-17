@@ -21,6 +21,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-from .main import countdown, text_to_speech, wait_until
+from .main import wait_until, text_to_speech, countdown
 
 __all__ = ("wait_until", "text_to_speech", "countdown")
