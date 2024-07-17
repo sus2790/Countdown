@@ -6,7 +6,7 @@
 $ git clone https://github.com/sus2790/Countdown
 $ cd Countdown
 $ pip install -r requirements.txt
-$ python main.py
+$ python Countdown/main.py
 ```
 
 沒什麼實際價值 owo
