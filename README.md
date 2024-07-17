@@ -3,7 +3,7 @@
 一個用來跟恐龍搶跨日大師的工具
 
 ```shell
-$ pip install git+https://github.com/sus2790/Countdown
+$ git clone https://github.com/sus2790/Countdown
 $ cd Countdown
 $ pip install -r requirements.txt
 $ python main.py

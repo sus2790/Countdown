@@ -9,6 +9,11 @@ readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
+dependencies = [
+    "gtts",
+    "playsound",
+    "pytz",
+]
 
 [project.urls]
 Home = "https://github.com/sus2790/Countdown"
